@@ -1,4 +1,40 @@
 Planner01::Application.routes.draw do
+  get "results/new"
+
+  get "results/edit"
+
+  get "results/index"
+
+  get "results/show"
+
+  get "quenstions/new"
+
+  get "quenstions/edit"
+
+  get "quenstions/index"
+
+  get "quenstions/show"
+
+  get "surveys/new"
+
+  get "surveys/edit"
+
+  get "surveys/index"
+
+  get "surveys/show"
+
+  get "pages/home"
+
+  get "pages/about"
+
+  get "users/new"
+
+  get "users/edit"
+
+  get "users/index"
+
+  get "users/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
